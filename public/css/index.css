@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 65%;
+    background-color: rgb(247, 240, 240);
+    border-radius: 40px;
+    border: 2px solid grey;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descriptionConteneur{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.description{
+    font-size: 1.5rem;
+}
+
+.compteConteneur{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.creation, .connexion{
+    width: 45%;
+}
+
+.bouton{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn-creer, .btn-connect{
+    width: 45%;
+}
+
+.w32{
+    width: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 118px;
+}
