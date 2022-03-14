@@ -12,7 +12,7 @@
         <header>
                 <img src="../public/images/icons/logo.png" alt="Logo de La Poudreuse">
         </header>
-        <form action="#" method="post">
+        <form action="" method="post">
             <h1>Créer un compte</h1>
             <table>
                 <tr>
@@ -29,7 +29,7 @@
                 </tr>
                 <tr>
                     <td><label for="email">Entrez votre courriel</label></td>
-                    <td><input type="text" id="email" name="email" placeholder="johndoe@exemple.com" required></td>
+                    <td><input type="email" id="email" name="email" placeholder="johndoe@exemple.com" required pattern="^[A-Za-z0-9]{1,}@[a-z]{3,}.[a-z]{2,3}$"></td>
                 </tr>
                 <tr>
                     <td><label for="password">Entrez votre mot de passe</label></td>
