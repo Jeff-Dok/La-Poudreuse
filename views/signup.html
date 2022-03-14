@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/signup.css">
+    <title>La Poudreuse - Connexion</title>
+</head>
+<body>
+    <main>
+        <header>
+                <img src="../public/images/icons/logo.png" alt="Logo de La Poudreuse">
+        </header>
+        <form action="" method="post">
+            <h1>Créer un compte</h1>
+            <table>
+                <tr>
+                    <td><label for="name">Entrez votre nom complet</label></td>
+                    <td><input type="text" id="name" name="name" required placeholder="John Doe"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Entrez votre numéro de téléphone</label></td>
+                    <td><input type="text" id="phone" name="phone" required maxlength="12" placeholder="123-456-7890" pattern="^(([0-9]{3}-){2}[0-9]{4})||(([0-9]{3}\s){2}[0-9]{4})||([0-9]{10})$"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Entrez votre ville</label></td>
+                    <td><input type="text" id="address" name="address" placeholder="Québec" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Entrez votre courriel</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="johndoe@exemple.com" required pattern="^[A-Za-z0-9]{1,}@[a-z]{3,}.[a-z]{2,3}$"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Entrez votre mot de passe</label></td>
+                    <td><input type="password" id="password" name="password" required placeholder="Mot de passe"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Se créer un compte">
+        </form>
+    </main>
+</body>
+</html>
