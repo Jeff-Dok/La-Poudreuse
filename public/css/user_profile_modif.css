@@ -34,7 +34,12 @@ span{
 
 }
 
-input[type="button"]{
+input{
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+[type="button"],[type="submit"]{
     padding: 1rem 2rem;
     border-radius: 25px;
     font-size: 1.2rem;

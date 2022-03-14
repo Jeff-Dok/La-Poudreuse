@@ -71,5 +71,12 @@ footer{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 118px;
+    position: fixed;
+    bottom: 0;
+}
+
+input[type="button"]{
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
 }
