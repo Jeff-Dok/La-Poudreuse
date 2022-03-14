@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/user_profile_modif.css">
+    <link rel="stylesheet" href="css/userProfileEdit.css">
     <title>La Poudreuse - Profil</title>
 </head>
 <body>
     <main>
         <header>
-                <img src="../public/images/icons/logo.png" alt="Logo de La Poudreuse">
+                <img src="images/icons/logo.png" alt="Logo de La Poudreuse">
         </header>
         <h1>
             Profil de {value}
         </h1>
-        <form action="./user_profile.html">
+        <form action="/users/profile/save" method="post" id="profile">
             <div>
                 <span>
                     Nom complet :
@@ -56,15 +56,15 @@
                     <input type="text" id="name" name="name" placeholder="{value}">
                 </span>
             </div>
-            <div class="bas">
-                <div>
-                    <a href="./user_profile.html"><input type="button" value="Annuler"></a>
-                </div>
-                <div>
-                    <input type="submit" value="Enregistrer">
-                </div>
-            </div>
         </form>
+        <div class="bas">
+            <div>
+                <a href="/users/profile"><input type="button" value="Annuler"></a>
+            </div>
+            <div>
+                <input type="submit" value="Enregistrer" form="profile">
+            </div>
+        </div>
     </main>
 </body>
 </html>

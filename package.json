@@ -1,0 +1,24 @@
+{
+  "name": "la-poudreuse",
+  "version": "1.0.0",
+  "description": "Application web pour les skieurs de randonnée",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeff-Dok/La-Poudreuse.git"
+  },
+  "author": "Jean-François Gagnon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeff-Dok/La-Poudreuse/issues"
+  },
+  "homepage": "https://github.com/Jeff-Dok/La-Poudreuse#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
