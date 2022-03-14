@@ -21,3 +21,36 @@ header {
     justify-content: center;
     margin-top: 2rem;
 }
+
+form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.courriel, .password{
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+#email, #password{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+label[for="email"]{
+    padding-right: 45px;
+}
+
+input[type="submit"]{
+    margin-top: 5rem;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
