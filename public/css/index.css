@@ -11,6 +11,7 @@ main{
     flex-flow: column wrap;
     align-content: center;
     width: 65%;
+    height: 728px;
     background-color: rgb(247, 240, 240);
     border-radius: 40px;
     border: 2px solid grey;
