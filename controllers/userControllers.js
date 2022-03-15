@@ -11,11 +11,11 @@ exports.sendSignUp = (request, response) => {
 }
 
 exports.viewProfile = (request, response) => {
-    response.render("userProfile");
+    response.render("profile");
 }
 
 exports.editProfile = (request, response) => {
-    response.render("userProfileEdit");
+    response.render("profileEdit");
 }
 
 exports.logout = (request, response) => {
@@ -23,9 +23,9 @@ exports.logout = (request, response) => {
 }
 
 exports.loginApi = (request, response) => {
-    response.redirect("/users/profile");
+    response.redirect("/profile");
 }
 
 exports.saveProfile = (request, response) => {
-    response.redirect("/users/profile");
+    response.redirect("/profile");
 }
