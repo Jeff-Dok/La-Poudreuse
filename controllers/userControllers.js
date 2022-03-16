@@ -2,12 +2,20 @@ exports.getIndex = (request, response) => {
     response.render("index");
 }
 
+exports.sendSignUp = (request, response) => {
+    response.render("signup");
+}
+
+exports.createAccount = (request, response) => {
+    response.redirect("/signin")
+}
+
 exports.sendSignIn = (request, response) => {
     response.render("signin");
 }
 
-exports.sendSignUp = (request, response) => {
-    response.render("signup");
+exports.loging = (request, response) => {
+    response.redirect("/profile")
 }
 
 exports.viewProfile = (request, response) => {
@@ -18,14 +26,14 @@ exports.editProfile = (request, response) => {
     response.render("profileEdit");
 }
 
-exports.logout = (request, response) => {
-    response.redirect("/");
-}
-
-exports.loginApi = (request, response) => {
-    response.redirect("/profile");
-}
-
 exports.saveProfile = (request, response) => {
     response.redirect("/profile");
+}
+
+exports.logingout = (request, response) => {
+    response.redirect("/logout");
+}
+
+exports.logout = (request, response) => {
+    response.redirect("/");
 }
